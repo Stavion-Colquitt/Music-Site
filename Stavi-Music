@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Stavion Colquitt</title>
+<style>
+.menu{float:right; width:20%}
+.menuitem{padding:8px;margin-top:7px;border-bottom: 2px solid red;Color:red}
+.button{ background-color:red ; border:none; color:wheat; text-align: center;} 
+.demo{float:left}
+  h1 {color: yellow;}
+  h2{color: yellow}
+  body {background-color:#030203;}
+  p {color:yellow; font-size: large; font-family: Arial, Helvetica, sans-serif;} 
+  h2 {color: yellow;float:right; font-family: Arial, Helvetica, sans-serif;}
+  .image{size: 400px;float: left; }
+  .container{ max-width: 400px; margin:0px ; display: flex; flex-wrap: wrap; align-items: flex-start; gap:20px;Float:left}
+  .container .song-list-container{flex:1 1 100px; height: 400px; overflow-y: scroll;box-shadow: 0 5px 15px rgba(0,0,0,.1);background-color: red; float: left;}
+ .container .song-list-container .list{display: flex; gap:15px;background-color: black;margin: 1px;padding: 1px;color:red}
+ 
+ .set{Flex:1 1 100px; height:500px; overflow-y: scroll;background-color:black;}
+ 
+  div.sticky {
+  position: sticky;
+  top: 0; 
+  padding: 5px;
+  background-color: pink;
+  border: 2px solid red;
+  color:red
+}
+
+</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS Starter</title>
+  <link rel="js" href="script.js">
+</head>
+
+
+
+<body> 
+
+
+<div class="sticky"><a href="https://linktr.ee/stavionc">Linktree</a>
+<a href="https://www.youtube.com/channel/UCoC7Vw33q6ASvgdNUXbjvbA">Youtube</a>
+<a href="https://open.spotify.com/artist/6q3Ld18OFCXzbAf23ON096">Spotify</a>
+<a href="https://stavi-merch.myshopify.com/">Shopify</a>
+<a href="https://music.apple.com/us/artist/stavion-colquitt/1630547791">Apple Music</a>
+<a href="https://pandora.app.link/CPQB87SCjxb">Pandora Radio</a>
+</div>
+  
+<div class="menu">
+    <div class="menuitem"><a href="https://linktr.ee/stavionc">Linktree</a></div>
+    <div class="menuitem"><a href="https://www.youtube.com/channel/UCoC7Vw33q6ASvgdNUXbjvbA">Youtube</a></div>
+    <div class="menuitem"><a href="https://open.spotify.com/artist/6q3Ld18OFCXzbAf23ON096">Spotify</a> </div>
+    <div class="menuitem"><a href="https://stavi-merch.myshopify.com/">Shopify</a></div>
+<div class="menuitem"><a href="https://music.apple.com/us/artist/stavion-colquitt/1630547791">Apple Music</a></div>
+<div class="menuitem"><a href="https://pandora.app.link/CPQB87SCjxb">Pandora Radio</a></div>
+</div>
+
+ <div class="container">
+
+<div class="song-list-container">
+  <div class="list">
+    <iframe src="https://open.spotify.com/embed/track/2evPj88fujBSwditZkI6UX?utm_source=generator" class="list-song"></iframe>
+    <h3 class="list-title">Grind Don't Stop</h3></div>
+   
+    <div class="list">
+      <iframe src="https://open.spotify.com/embed/track/2oWSywXMiektwK14vcCvIY?utm_source=generator" class="list-song"></iframe>
+      <h3 class="list-title">Never beat me</h3>
+    </div>
+    <div class="list">
+      <iframe src="https://open.spotify.com/embed/track/2KoyeDIPOyfbS8i3tzbsmD?utm_source=generator" class="list-song"></iframe>
+      <h3 class="list-title">My Fault</h3>
+    </div>
+</div>
+ </div>
+
+ 
+<div class="set">
+<div class="songs"><h1>Grind don't stop</h1><a href="https://youtu.be/SFGzhOQ_lSA?t=6"></a>
+<iframe width="400" height="200" src="https://www.youtube.com/embed/SFGzhOQ_lSA" title="Grind Don't Stop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<div class="songs"><h1>Never beat me</h1><a href="https://youtu.be/C17AjnUk6WA"></a>
+<iframe width="400" height="200" src="https://www.youtube.com/embed/C17AjnUk6WA" title="Never beat me 👊" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div class="songs"><h1>My fault</h1><a href="https://youtu.be/V6j3NpF1tQ8"></a><iframe width="400" height="200" src="https://www.youtube.com/embed/V6j3NpF1tQ8" title="My Fault" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+
+
+
+   
+   
+   
+   
+
+
+       
+
+</body>
+<body>
+ <img id="image" src="https://i.scdn.co/image/ab67616d0000b273f70a2158713a6e363e427093" length="400px" width="400px">
+
+<script type = "text/javascript">
+    var image = document.getElementById("image");
+    var currentPos = 0;
+    var images = ["https://i.scdn.co/image/ab67616d0000b273f70a2158713a6e363e427093", "https://i.scdn.co/image/ab67616d0000b2732de6eafb87f3394323b133eb","https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/240388758_1901084236720451_6788095786415438857_n.jpg?stp=dst-jpg_s206x206&_nc_cat=111&ccb=1-7&_nc_sid=da31f3&_nc_ohc=DbHOuiwB4CEAX8UYJY0&_nc_oc=AQlEbWtbdvC0GSmBkmdNuA3CSo4lS9C-T8ZWnkn8L3Zo424drXpq0CnNkFr_1C_dvaG_bTJQjz8rO0EeowTgqnjZ&_nc_ht=scontent-ord5-2.xx&oh=00_AfAKbrwOH0YajPvvNQox0bBL824uTpsgqUMT_Z3LQZbQYA&oe=63E1AA6B","https://scontent-ord5-2.xx.fbcdn.net/v/t1.6435-9/33305604_957219961106888_1569835156850606080_n.jpg?stp=dst-jpg_s206x206&_nc_cat=111&ccb=1-7&_nc_sid=da31f3&_nc_ohc=kRD9RxE8-WoAX9rjOV3&_nc_ht=scontent-ord5-2.xx&oh=00_AfB6CRkTTOozDL1bxCg66kYkcFY1FzPKxfAe8YSX8A3L2Q&oe=6404F2B4",]
+
+    function photochange() {
+        if (++currentPos>=images.length)
+            currentPos = 0;
+
+        image.src = images[currentPos];
+    }
+
+    setInterval(photochange, 7000);
+</script>
+<p id="demo" style="display:none"> Stavion Is a 22 year old singer and pianist from Illinois. He has grown up singing and writing songs. He makes songs for all to enjoy and he hopes you do just that. Stavion Is a joilet artist who loves to sing and make music. He started when he was a young kid singing in choirs and taking voice lessons. He eventually started to sing in his choirs at school and became well known for his sense of style both with and without a microphone. He would later go on to go to college for digital audio recording arts and get a degree to be an audio engineer and start to make his own new original bodies of work. He is currently working on even more songs to release and to shortly thereafter start to go out to do public shows.</p><button class="button" onclick="document.getElementById('demo').style.display='block'">Press for bio</button>
+</body></html>
